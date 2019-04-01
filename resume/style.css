@@ -1,0 +1,48 @@
+body {
+background: linear-gradient(#c9eae3, #ffd8d8);
+margin: 0 10%;
+font-family: Georgia, sans-serif;
+font-size: 100%;
+line-height: 1.75em;
+}
+h1 {
+font: normal 5rem "Passion One", Georgia, sans-serif;
+color: black;
+text-shadow: .02em .02em .1em gray;
+text-align: center;
+
+}
+h2 {
+font-family: "Paytone One", serif;
+text-align: center;
+text-transform: uppercase;
+}
+h3 {
+border-top: 2px solid #57b1dc;
+border-bottom: 2px solid #57b1dc;
+font-family: sans-serif;
+color: #05143f;
+text-transform: capitalize;
+}
+p {
+text-align: justify;
+font-size: 1.2rem;
+}
+li {
+font-family: Georgia;
+list-style-position: outside;
+}
+.welcomemessage {
+border-top: 2px solid #57b1dc;
+text-align: center;
+font-style: italic;
+font-size: 1.2rem;
+font-weight: bold;
+border-bottom: 2px solid #57b1dc;
+}
+h2 + p {
+}
+a.link {
+color: blue;
+font-family: Georgia;
+}
