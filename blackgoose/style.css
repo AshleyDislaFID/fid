@@ -1,0 +1,31 @@
+body {
+  text-align: left;
+  background-color: #96b2ff;
+  margin: 0 10%;
+  font-family: sans-serif;
+  }
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-size: 3rem;
+  font-weight: normal;
+  text-transformation: uppercase;
+  border-bottom: 1px solid #57b1dc;
+  margin-top: 30px;
+}
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #b25d03;
+  font-size: 1.7em;
+  text-decoration: underline;
+}
+h3 {
+  font-family: "Josefin Sans", sans-serif;
+  color: #b25d03;
+  text-decoration: underline;
+}
+li {
+font-family: Georgia;
+color: blue;
+list-style-position: outside;
+}
