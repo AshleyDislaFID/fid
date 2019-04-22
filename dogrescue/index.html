@@ -8,15 +8,41 @@
 <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Josefin+Sans:600|Righteous|Yanone+Kaffeesatz:400,700" rel="stylesheet">
 <style>
 @media screen and (min-width: 400px) {
-  ul.navigation {
+  nav ul li {
     flex: none;
-  }
-  ul.navigation {
     justify-content: center;
+    font-size: .8em;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	flex: 1 1 50%;
   }
-  img + ul {
-    width: 400px;
+  img[width="1330"] {
+    display: block;
+    width: 975px;
+    height: 400px;
   } 
+  img[alt="icon"] {
+    width: 60px;
+    height: 50px;
+  } 
+  img[alt="dog group"] {
+    width: 70px;
+    height: 70px;
+  } 
+  p.heading {
+    font-size: 20px;
+  }
+ul.navigation {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+    flex: none;
+    justify-content: center;
+
+	flex: 1 1 50%;
+  text-align: center;
+  letter-spacing: -.1em;
+  }
 }
 </style>
 </head>
