@@ -62,9 +62,17 @@ ul.navigation {
   font-family: "Fjalla One",sans-serif;
   font-weight: none;
   text-align: center;
-  letter-spacing: .2em;
+  letter-spacing: -.1em;
   border-top: 5px solid #3d2d1a;
   border-bottom: 5px solid #3d2d1a;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex: none;
+  justify-content: center;
+  font-size: 1.2em;
+  flex: 1 1 50%;
+  text-align: center;
 }
 li.navigation {
   float: left;
