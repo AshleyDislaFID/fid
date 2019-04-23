@@ -1,4 +1,4 @@
-<style>
+
 body { 
 background: #fcf1b8;
 }
@@ -137,4 +137,137 @@ li.footersmtitle, li.footersm {
 p.contacts {
 font-size: 125%;
 }
-</style>
+
+
+
+
+@media screen and (min-width: 400px) {
+  nav ul li {
+    flex: none;
+    justify-content: center;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    flex: 1 1 50%;
+  }
+  img[width="1330"] {
+    display: block;
+    width: 975px;
+    height: 400px;
+    max-width: 100%;
+  } 
+  img[alt="icon"] {
+    width: 60px;
+    height: 50px;
+    max-width: 100%;
+  } 
+  img[alt="dog group"] {
+    width: 70px;
+    height: 70px;
+    max-width: 100%;
+  } 
+  p.heading {
+    font-size: 19px;
+  }
+  p.homedescription {
+    font-size: 60%;
+  }
+   h1#hometitle {
+    font-size: 75%;
+  }
+ul.navigation {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+    flex: none;
+    justify-content: center;
+    font-size: 1.2em;
+	flex: 1 1 50%;
+  text-align: center;
+  letter-spacing: -.1em;
+  }
+ul.footernavul {
+font-size: 125%;
+  }
+  p.copyright {
+    font-size: 80%;
+    font: sans-serif;
+  }
+@media screen and (min-width: 600px) {
+  nav ul li {
+    flex: none;
+    justify-content: center;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    flex: 1 1 50%;
+  }
+  img[width="1330"] {
+    display: block;
+    width: 975px;
+    height: 400px;
+    max-width: 100%;
+  } 
+  img[alt="icon"] {
+    width: 60px;
+    height: 50px;
+    max-width: 100%;
+  } 
+  img[alt="dog group"] {
+    width: 70px;
+    height: 70px;
+    max-width: 100%;
+  } 
+  p.heading {
+    font-size: 19px;
+  }
+  p.homedescription {
+    font-size: 60%;
+  }
+   h1#hometitle {
+    font-size: 75%;
+  }
+ul.navigation {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+    flex: none;
+    justify-content: center;
+    font-size: 1.2em;
+	flex: 1 1 50%;
+  text-align: center;
+  letter-spacing: -.1em;
+  }
+ul.footernavul {
+font-size: 125%;
+  }
+  p.copyright {
+    font-size: 80%;
+    font: sans-serif;
+  }
+  p.heading {
+    font-size: 45px;
+    max-width: 100%;
+
+  }
+  p.homedescription {
+    font-size: 120%;
+  }
+   h1#hometitle {
+    font-size: 200%;
+  }
+  img[width="1330"] {
+    display: block;
+    width: 965px;
+    height: 420px;
+    max-width: 100%;
+  } 
+}
+@media screen and (min-width: 940px) {
+  img[width="1330"] {
+    display: block;
+    width: 1330px;
+    height: 770px;
+    max-width: 100%;
+  } 
+}
